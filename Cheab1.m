@@ -42,7 +42,7 @@ switch cheab
         k=Op/Os;
         k1=E/sqrt(A^2-1);
         G=sqrt((A^2-1)/E^2);
-        N=ceil((ellipke(k)*ellipke(sqrt(1-k1^2)))/(ellipke(k1)*ellipke(1-k^2)));
+        N=ceil((ellipke(k)*ellipke (sqrt(1-k1^2)))/(ellipke(k1)*ellipke(1-k^2)));
         [Z,P,K]=ellipap(N,Rp,As);
         denn=real(poly(P));
         numn=real(poly(Z));

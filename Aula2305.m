@@ -7,7 +7,7 @@ h1=freqz(num1,den,w);
 h2=freqz(num2,den,w);
 plot(w,abs(h1))
 hold on
-%plot(w,abs(h2),'r')
+plot(w,abs(h2),'-r')
 figure;
 plot(w,angle(h1))
 hold on
