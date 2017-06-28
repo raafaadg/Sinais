@@ -18,7 +18,7 @@ for i=1:1
     cheab=i;
 switch cheab
     case 1  %Cheab 1
-        Oc=Op;-
+        Oc=Op;
         Or=Os/Op;
         G=sqrt((A^2-1)/E^2);
         N=ceil((log10(G+sqrt(G^2-1)))/(log10(Or+sqrt(Or^2-1))));
