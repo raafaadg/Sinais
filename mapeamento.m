@@ -13,7 +13,7 @@ for k=0:bzord
     for l=0:bzord-k-1
         pld=conv(pld,Dz);
     end
-    bz=bz+bz(k+1)*conv(pln,pld);
+    bz=bz+bZ(k+1)*conv(pln,pld);
 end
 az=zeros(1,azord+1);
 for k=0:azord

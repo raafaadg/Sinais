@@ -15,7 +15,7 @@ E=sqrt(10^(Rp/10)-1);
 A=10^(As/20);
 
 for i=1:1
-    cheab=i;
+    cheab=1;
 switch cheab
     case 1  %Cheab 1
         Oc=Op;
@@ -77,6 +77,8 @@ end
 
 figure
 plot(w/pi,Hmag)
+figure
+plot(w/pi,angle(H))
         
 
 % end
